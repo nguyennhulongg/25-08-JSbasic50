@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        function up(s) {
+            var x = s.toLowerCase().split(" ");
+            for (var i = 0; i < x.length; i++) {
+                x[i] = x[i][0].toUpperCase() + x[i].slice(1);
+            }
+            return x.join(" ")
+        }
+
+        console.log(up("long dep trai vo dich"));
+
+    </script>
+</body>
+</html>
